@@ -106,21 +106,22 @@
 <div class="container">
   <div class="center">
     <table>
-      <tr><td></td><td align = "center"><button class="button button1">FORWARD</button></td><td></td></tr>
+      <tr><td></td><td align = "center"><button class="button button1" cloud_action='update' cloud_name='command'>FORWARD</button></td><td></td></tr>
       <tr>
-        <td align = "center"><button class="button button2">LEFT</button></td>
-        <td align = "center"><button class="button button5">SPACE</button></td>
-        <td align = "center"><button class="button button3">RIGHT</button></td>
+        <td align = "center"><button class="button button2" cloud_action='update' cloud_name='command'>LEFT</button></td>
+        <td align = "center"><button class="button button5" cloud_action='update' cloud_name='command'>SPACE</button></td>
+        <td align = "center"><button class="button button3" cloud_action='update' cloud_name='command'>RIGHT</button></td>
       </tr>
-      <tr><td></td><td align = "center"><button class="button button4">BACKWARD</button></td></td></td></tr>
+      <tr><td></td><td align = "center"><button class="button button4" cloud_action='update' cloud_name='command'>BACKWARD</button></td></td></td></tr>
       </table>
   </div>
 </div>
 
 	<!-- SERVICE DOCK -->
 	<div id="servicedock">
-		<service-airtable id="service_airtable" tablename="myProject"></service-airtable>
+		<service-airtable id="service_airtable" tablename="finalTest"></service-airtable>
 	</div>
+
 
 </body>
 </html>
